@@ -19,7 +19,7 @@ mongoose
   .catch(console.error);
 
 // Models
-const Todo = require("./models/Todo");
+const Todo = require("./models/todo");
 
 app.get("/todos", async (req, res) => {
   const todos = await Todo.find();
