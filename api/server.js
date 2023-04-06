@@ -9,7 +9,7 @@ app.use(cors());
 
 mongoose
   .connect(
-    "mongodb+srv://amlanc:SIMdUx9NaiVJK1zQ@cluster0.6u037jj.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://amlanc:SIMdUx9NaiVJK1zQ@cluster0.6u037jj.mongodb.net/test?retryWrites=true&w=majority",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
